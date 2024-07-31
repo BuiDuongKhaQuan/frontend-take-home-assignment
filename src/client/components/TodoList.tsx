@@ -134,7 +134,7 @@ export const TodoList: React.FC<{ tab: string }> = ({ tab }) => {
               <label
                 className={`block pl-3 font-medium ${
                   todo.status === TodoStatusSchema.Enum.completed
-                    ? 'line-through'
+                    ? 'text-gray-700 line-through'
                     : ''
                 }`}
                 htmlFor={String(todo.id)}
