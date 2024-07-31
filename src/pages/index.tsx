@@ -70,7 +70,7 @@ const Index = () => {
 const TabsTrigger = ({ label, value }: { label: string; value: string }) => {
   return (
     <Tabs.Trigger
-      className="TabsTrigger rounded-full border border-gray-300 px-6 py-3 text-sm data-[state=active]:border-none data-[state=active]:bg-gray-700 data-[state=active]:text-white"
+      className="TabsTrigger rounded-full border border-gray-300 px-6 py-3 text-sm font-bold data-[state=active]:border-none data-[state=active]:bg-gray-700 data-[state=active]:text-white"
       value={value}
     >
       {label}
